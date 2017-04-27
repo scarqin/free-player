@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    background: #e5e5e5;
+}
+audio{
+	display: none;
+}
+span{
+	display: inline-block;
+}
+.wrapper {
+    position: relative;
+    top: 50%;
+    width: 650px;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: -150px;
+    border-radius: 10px;
+    background: #6b6969;
+    overflow: hidden;
+    box-shadow: 0px 6px 7px #999;
+}
+
+.controller {
+    float: left;
+    width: 300px;
+    height: 350px;
+    background-color: rgba(184, 226, 255, 0.84);
+    color: #fff;
+}
+
+.dropdown {
+    display: inline-block;
+    margin: 5px 0 0 10px;
+}
+.song-message{
+	margin-top: 25px;
+   text-align:center;
+   		font-size: 17px;
+}
+.music-name{
+	font-size: 20px;
+}
+.singer{
+}
+.record{
+	 font-size: 15px;
+}
+.play-control{
+	margin-top: 15px;
+	text-align:center;
+font-size: 25px;
+}
+.basebar{
+    display: block;
+    border: none;
+    width: 250px;
+    height: 4px;
+    margin: 20px auto 10px auto;
+    border-radius: 2px;
+    background-color: #e5e5e5;
+    position: relative;
+}
+.progressbar{
+	display: block;
+    border: none;
+    width: 0%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #6f9ab9;
+}
+.volumn-control{
+	z-index: 2;
+	position: absolute;
+	left: 275px;
+	bottom: 0;
+}
+.cover {
+    float: right;
+    width:350px;
+    height: 310px;
+}
+.lyric-view{
+	padding: 20px 0;
+    background-color: rgba(158, 152, 152, 0.5);
+	overflow: hidden;
+    height: 300px;
+}
+.lyric{
+	position: relative;
+	width: 100%;
+}
+.lyric li {
+    padding: 5px 0 2px 0;
+    position: relative;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 12px;
+    transition: all 1s;
+}
+.lyric li.active{
+	font-size: 13px;
+	color: #fff;
+}
+.btn{
+	    font-size:22px;
+    color: #fff;
+}
+.icon-music:before {
+    width: 25px;
+    color: #fff;
+}
+
+.icon-menu:before {
+    color: #fff;
+}
+
+.icon-play:before {
+	margin:0 15px;
+	font-size: 30px;
+    color: #fff;
+}
+
+.icon-pause:before {
+	margin:0 15px;
+	font-size: 30px;
+    color: #fff;
+}
+
+.icon-next:before {
+    color: #fff;
+}
+
+.icon-volume-increase:before {
+    color: #e6e6e6;
+}
+.icon-volume-increase:hover:before{
+    color: #fff;
+}
+.icon-volume-decrease:before {
+  color:  #e6e6e6;
+}
+.icon-volume-decrease:hover:before{
+    color: #fff;
+}
+
